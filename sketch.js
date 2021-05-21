@@ -36,6 +36,8 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    platform = new Ground(100,305,300,170);
+
 }
 
 function draw(){
